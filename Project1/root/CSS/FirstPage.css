@@ -1,0 +1,71 @@
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-image {
+    width: 100%; 
+    height: auto; 
+    max-height: 250px; 
+    object-fit: contain; 
+    border-radius: 10px;
+}
+
+
+.product-category {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.women-perfumes {
+    background-color: #ffe6f2;
+}
+
+.men-perfumes {
+    background-color: #e6f2ff;
+}
+
+.unisex-perfumes {
+    background-color: #f2f2f2;
+}
+
+.women-perfumes .product-card {
+    background-color: #ffe6f2;
+}
+
+.men-perfumes .product-card {
+    background-color: #e6f2ff;
+}
+
+.unisex-perfumes .product-card {
+    background-color: #f2f2f2;
+}
+
+.cta-button {
+    background-color: #81230a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #d35400;
+}
