@@ -39,7 +39,7 @@ header {
 
 body {
     padding-top: 50px;
-}/* الشريط العلوي */
+}
 nav {
     background-color: #39362f;
     position: fixed;
@@ -72,7 +72,7 @@ nav ul li a:hover {
     background-color: #2e2727;
 }
 
-/* الهيدر */
+/
 header {
     background-color: #ddd2d2;
     padding: 15px 0;
